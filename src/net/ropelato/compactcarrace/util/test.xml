@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+
+<content>
+	<directory name="bin">
+		<directory name="net">
+			<directory name="ropelato">
+				<directory name="cloud07">
+					<directory name="characters">
+						<file name="Player.class" />
+					</directory>
+					<directory name="connection">
+						<file name="DatabaseConnection.class" />
+						<file name="FileDownloader.class" />
+					</directory>
+					<directory name="controls">
+						<file name="Controller.class" />
+						<file name="KeyboardListener.class" />
+
+						<file name="MyJoystickListener.class" />
+					</directory>
+					<directory name="graphics2d">
+						<file name="ChatReport$RemoveThread.class" />
+						<file name="ChatReport.class" />
+					</directory>
+					<directory name="graphics3d">
+						<file name="Camera.class" />
+						<file name="CollisionEntryDetector.class" />
+						<file name="CollisionExitDetector.class" />
+						<file name="CopyOfMyText2D.class" />
+						<file name="Model.class" />
+						<file name="MyPointLight.class" />
+						<file name="MyText2D.class" />
+						<file name="MyText3D.class" />
+						<file name="Terrain.class" />
+						<file name="Triangle.class" />
+
+					</directory>
+					<directory name="main">
+						<file name="Main$CanvasKeyListener.class" />
+						<file name="Main$ChatInputListener.class" />
+						<file name="Main$ChatSendListener.class" />
+						<file name="Main$LoginActionListener.class" />
+						<file name="Main$LoginKeyListener.class" />
+						<file name="Main.class" />
+					</directory>
+					<directory name="starter">
+						<file name="Starter.class" />
+					</directory>
+					<directory name="util">
+						<file name="Consts.class" />
+						<file name="SynchronizedRandom.class" />
+						<file name="Util.class" />
+					</directory>
+
+					<directory name="view">
+						<file name="View.class" />
+					</directory>
+					<directory name="world">
+						<file name="World.class" />
+					</directory>
+				</directory>
+			</directory>
+		</directory>
+		<file name="error.log" />
+	</directory>
+	<directory name="characters">
+		<file name="player_black.ms3d" />
+		<file name="player_blue.ms3d" />
+		<file name="player_collisionshape.ms3d" />
+		<file name="player_green.ms3d" />
+		<file name="player_red.ms3d" />
+
+		<file name="player_yellow.ms3d" />
+	</directory>
+	<directory name="config">
+		<file name="random.config" />
+	</directory>
+	<directory name="info">
+		<file name="current_version.info" />
+		<file name="online_version.info" />
+	</directory>
+	<directory name="lib">
+		<file name="j3dcore.jar" />
+		<file name="j3dutils.jar" />
+		<file name="jdom.jar" />
+		<file name="joystick.jar" />
+		<file name="ms3dloader.jar" />
+		<file name="mysqlconnector.jar" />
+		<file name="vecmath.jar" />
+
+	</directory>
+	<directory name="resources">
+		<directory name="backup">
+			<directory name="src_v1">
+				<directory name="src">
+					<directory name="net">
+						<directory name="ropelato">
+							<directory name="cloud07">
+								<directory name="characters">
+									<file name="Player.java" />
+								</directory>
+								<directory name="connection">
+									<file
+											name="DatabaseConnection.java" />
+									<file name="FileDownloader.java" />
+								</directory>
+								<directory name="controls">
+									<file name="Controller.java" />
+
+									<file name="KeyboardListener.java" />
+									<file
+											name="MyJoystickListener.java" />
+								</directory>
+								<directory name="graphics3d">
+									<file name="Camera.java" />
+									<file
+											name="CollisionEntryDetector.java" />
+									<file
+											name="CollisionExitDetector.java" />
+									<file name="Model.java" />
+									<file name="MyPointLight.java" />
+									<file
+											name="SlidingCollisionThread.java" />
+								</directory>
+								<directory name="main">
+									<file name="Main.java" />
+								</directory>
+								<directory name="util">
+									<file name="Util.java" />
+								</directory>
+
+								<directory name="view">
+									<file name="View.java" />
+								</directory>
+								<directory name="world">
+									<file name="World.java" />
+								</directory>
+							</directory>
+						</directory>
+					</directory>
+				</directory>
+			</directory>
+			<directory name="world">
+				<directory name="data">
+					<directory name="textures">
+						<file name="wall1.jpg" />
+					</directory>
+					<file name="building1.ms3d" />
+
+					<file name="floor1.ms3d" />
+					<file name="tree1.ms3d" />
+					<file name="wall1.jpg" />
+				</directory>
+				<file name="world1.xml" />
+			</directory>
+		</directory>
+		<file name="cloud07a.exe" />
+		<file name="cloud07a.jar" />
+		<file name="cloud07_config.exe4j" />
+	</directory>
+	<directory name="src">
+		<directory name="net">
+			<directory name="ropelato">
+				<directory name="cloud07">
+					<directory name="characters">
+						<file name="Player.java" />
+
+					</directory>
+					<directory name="connection">
+						<file name="DatabaseConnection.java" />
+						<file name="FileDownloader.java" />
+					</directory>
+					<directory name="controls">
+						<file name="Controller.java" />
+						<file name="KeyboardListener.java" />
+						<file name="MyJoystickListener.java" />
+					</directory>
+					<directory name="graphics2d">
+						<file name="ChatReport.java" />
+					</directory>
+					<directory name="graphics3d">
+						<file name="Camera.java" />
+						<file name="CollisionEntryDetector.java" />
+						<file name="CollisionExitDetector.java" />
+
+						<file name="CopyOfMyText2D.java" />
+						<file name="Model.java" />
+						<file name="MyPointLight.java" />
+						<file name="MyText2D.java" />
+						<file name="MyText3D.java" />
+						<file name="SimpleLand.java" />
+						<file name="Terrain.java" />
+						<file name="Triangle.java" />
+					</directory>
+					<directory name="main">
+						<file name="Main.java" />
+					</directory>
+					<directory name="starter">
+						<file name="Starter.java" />
+					</directory>
+					<directory name="util">
+						<file name="Consts.java" />
+
+						<file name="SynchronizedRandom.java" />
+						<file name="Util.java" />
+					</directory>
+					<directory name="view">
+						<file name="View.java" />
+					</directory>
+					<directory name="world">
+						<file name="World.java" />
+					</directory>
+				</directory>
+			</directory>
+		</directory>
+	</directory>
+	<directory name="world">
+		<directory name="data">
+			<directory name="textures">
+				<file name="lawn1.jpg" />
+
+				<file name="testtexture.bmp" />
+				<file name="wall1.jpg" />
+			</directory>
+			<file name="building1.ms3d" />
+			<file name="floor1.ms3d" />
+			<file name="floor1_walls.ms3d" />
+			<file name="tree1.ms3d" />
+		</directory>
+		<file name="world1.xml" />
+		<file name="world1.xml.backup" />
+	</directory>
+	<file name=".project" />
+	<file name="cloud07.exe" />
+	<file name="error.log" />
+	<file name="jjstick.dll" />
+	<file name="output.log" />
+</content>

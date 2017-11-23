@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/j3dcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j3dutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jogamp-fat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ms3dloader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysqlconnector.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/vecmath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/milkloader2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

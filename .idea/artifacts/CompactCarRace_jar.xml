@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CompactCarRace:jar">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="CompactCarRace.jar">
+      <element id="module-output" name="CompactCarRace" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/j3dcore.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/j3dutils.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jdom.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jogamp-fat.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ms3dloader.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysqlconnector.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/vecmath.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/milkloader2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

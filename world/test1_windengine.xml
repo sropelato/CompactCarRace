@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<world>
+	<light>
+		<ambientlight>
+			<color red="20" green="20" blue="20"/>
+			<bounds x="0" y="0" z="0" radius="10000"/>
+		</ambientlight>
+		<pointlight>
+			<color red="180" green="180" blue="180"/>
+			<position x="-1000" y="1000" z="1000"/>
+			<bounds x="0" y="0" z="0" radius="10000"/>
+		</pointlight>
+		<pointlight>
+			<color red="180" green="180" blue="180"/>
+			<position x="1000" y="5" z="1000"/>
+			<bounds x="0" y="0" z="0" radius="10000"/>
+		</pointlight>
+		<pointlight>
+			<color red="180" green="180" blue="180"/>
+			<position x="0" y="1000" z="-1000"/>
+			<bounds x="0" y="0" z="0" radius="10000"/>
+		</pointlight>
+	</light>
+	<terrains>
+		<terrain collidable="false">
+			<fields x="4" z="4"/>
+			<position x="-60" y="0" z="50"/>
+			<scale x="30" y="15" z="30"/>
+			<texture src="world/data/textures/pavement1.jpg" x="8" z="8"/>
+			<transparency visible="1"/>
+			<randomize x="0-4" z="0-4" height="0.0-0.5" seed="2"/>
+			<set x="2" z="2" height="0.5"/>
+			<set x="0-4" z="0" height="0"/>
+			<set x="0-4" z="4" height="0"/>
+			<set x="0" z="0-4" height="0"/>
+			<set x="4" z="0-4" height="0"/>
+		</terrain>
+	</terrains>
+	<models>
+		<model src="world/data/windengine1.ms3d" collidable="true">
+			<position x="0" y="terrain-0.6" z="110"/>
+			<scale factor="0.2"/>
+			<rotation x="0" y="180" z="0"/>
+		</model>
+	</models>
+</world>
